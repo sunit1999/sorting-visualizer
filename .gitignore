@@ -6,6 +6,7 @@
 .pnp.js
 .prettierignore
 .prettierrc.json
+gh-pages*
 
 # testing
 /coverage
