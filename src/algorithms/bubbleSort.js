@@ -1,6 +1,5 @@
 import { toDispatch } from "../toDispatch";
 import {
-  setColorOfBar,
   setIsRunning,
   setPairColor,
   swapHeightsOfBars,
@@ -65,16 +64,12 @@ export const bubbleSort = (arrayOfObj, dispatch, animationSpeed) => {
         setPairColor(
           arrayOfObj[j].id,
           arrayOfObj[j + 1].id,
-          PRIMARY_COLOR,
-          PRIMARY_COLOR
+          i === n - 2 ? FINAL_COLOR : PRIMARY_COLOR,
+          j + 1 === n - i - 1 ? FINAL_COLOR : PRIMARY_COLOR
         )
       );
     }
-
-    toDispatchArray.push(setColorOfBar(arrayOfObj[n - i - 1].id, FINAL_COLOR));
   }
-
-  toDispatchArray.push(setColorOfBar(arrayOfObj[n - i - 1].id, FINAL_COLOR));
 
   toDispatchArray.push(setIsRunning(false));
   toDispatch(dispatch, toDispatchArray, animationSpeed);
