@@ -1,6 +1,5 @@
 import { toDispatch } from "../toDispatch";
 import {
-  setColorOfBar,
   setIsRunning,
   setPairColor,
   swapHeightsOfBars,
@@ -11,7 +10,6 @@ import {
   PRIMARY_COLOR,
   SUCCESS_COLOR,
   swap,
-  WARNING_COLOR,
 } from "../utils";
 
 export const mergeSort = (arrayOfObj, dispatch, animationSpeed) => {
