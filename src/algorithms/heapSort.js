@@ -1,6 +1,5 @@
 import { toDispatch } from "../toDispatch";
 import {
-  setColorOfBar,
   setIsRunning,
   setPairColor,
   swapHeightsOfBars,
