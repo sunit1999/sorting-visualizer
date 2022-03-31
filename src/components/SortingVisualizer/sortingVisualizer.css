@@ -1,8 +1,0 @@
-.sorting-visualizer {
-  height: 100vh;
-  background-color: var(--bg-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-}
