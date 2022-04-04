@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
+import "./algoBtn.css"
 
 export const AlgoBtn = ({ algorithm, children }) => {
   const dispatch = useDispatch();

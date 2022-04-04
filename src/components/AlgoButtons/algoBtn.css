@@ -1,0 +1,27 @@
+button {
+  background-color: transparent;
+  color: var(--text-color);
+  border: .125em solid #08befa;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: .25em .125em;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: #08befa;
+  color: white;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:disabled,
+button[disabled] {
+  opacity: 0.5;
+}
