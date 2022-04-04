@@ -10,7 +10,7 @@ const Bar = ({ barId }) => {
       className="bar"
       data-id={barId}
       style={{
-        height: `${height}vh`,
+        height: `${height}%`,
         backgroundColor: color,
       }}
     ></div>
