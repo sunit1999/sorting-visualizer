@@ -1,4 +1,4 @@
-# Sorting Visualizer
+# 🎉 Sorting Visualizer 🎉
 
 A sorting visualizer is a tool that helps you visualize how different sorting algorithms work. With this project, you can generate random arrays of different sizes and see the animations of the sorting algorithms run at custom speeds.
 
